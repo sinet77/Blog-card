@@ -25,70 +25,71 @@
     text-align: center;
 }
 .content{
-    width: 20%;
-    height: 65%; 
+    width: 500px; 
     background-color:hsl(0, 0%, 100%);
     border-radius: 15px;
     box-shadow: 5px 5px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
     
 }
 .picture{
     border-radius: 25px;
-    width: 87%;
-    height: 78%; 
-    margin-top: -60px;
+    margin-bottom: 20px;
+    
 }
 #text1{
 
-    background-color: aqua;
+    background-color: hsl(47, 88%, 63%);
     width: 100px;
+    height: 25px;
     text-align: left;
-    margin-left: 15px;
-    margin-top: -67px;
-    font-weight: 600;
+    font-weight: 800;
+    justify-content: center;
+    display: flex;
+    border-radius: 5px;
+    border: none;
+    align-items: center;
+    color: hsl(0, 0%, 7%);
+    cursor: pointer;
+}
+#text1:hover{
+    background-color: rgb(92, 179, 131);
+    box-shadow: 0 0 20px rgba(0,0,0,0.5);
+    
+
 }
 #text2{
     text-align: left;
-    margin-left: 15px;
     margin-top: 10px;
-    
-    
+
 }
 #text3{
     text-align: left;
-    margin-left: 15px;
-    margin-top: 10px;
     font-weight: 800;
     color: hsl(0, 0%, 7%);
     font-size: 18px;
+    margin-top: 10px;
     
 }
 
 #text4{
     text-align: left;
-    margin-left: 15px;
     margin-top: 10px;
     color: hsl(0, 0%, 50%);
     font-size: 15px;
     
 }
-#text5{
-    text-align: left;
-    margin-left: 45px;
-    margin-top: 25px;
-    color: hsl(0, 0%, 7%);
-    font-size: 14px;
-    font-weight: 600;
-    
+
+.author{
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
 }
 .face{
-    text-align: left;
-    margin-right: 200px;
-    margin-top: -20px;
-    margin-bottom: 15px;
-    margin-left: 10px;
-    width: 25px; /* Dostosuj szerokość do swoich potrzeb */
-    height: 25px; /* Dostosuj wysokość do swoich potrzeb */
-    border-radius: 50%;
-
+    width: 25px; 
+    height: 25px; 
+    margin-right: 10px;
+    
 }
